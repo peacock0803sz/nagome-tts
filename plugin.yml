@@ -1,0 +1,11 @@
+name: nagome-tts
+description: ""
+version: "0.1.0"
+author: peacock0803sz
+method: std
+exec:
+  - python
+  - {{path}}/tts.py
+nagomever: ""
+subscribe:
+- nagome
