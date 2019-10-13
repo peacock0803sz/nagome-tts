@@ -4,8 +4,9 @@ version: "0.1.0"
 author: peacock0803sz
 method: std
 exec:
-  - python
-  - {{path}}/tts.py
+- '{{path}}/nagome-tts'
 nagomever: ""
 subscribe:
 - nagome
+- nagome-ui
+- nagome_comment
