@@ -44,6 +44,14 @@
   version = "v2.0.5"
 
 [[projects]]
+  digest = "1:3cb294c4711dc5e955cb79af750066fb3bb29836e283b7167b91ca6145cc00a2"
+  name = "github.com/koron/go-dproxy"
+  packages = ["."]
+  pruneopts = "U"
+  revision = "fd990aff3734271e213a87f118319cf104bb2dd6"
+  version = "v1.2.1"
+
+[[projects]]
   digest = "1:451b72ee0fb3d2a96f0c0c40a860ea7cc5054795788dd65bfa7cea670db67a49"
   name = "go.opencensus.io"
   packages = [
@@ -240,6 +248,7 @@
   analyzer-version = 1
   input-imports = [
     "cloud.google.com/go/texttospeech/apiv1",
+    "github.com/koron/go-dproxy",
     "google.golang.org/genproto/googleapis/cloud/texttospeech/v1",
   ]
   solver-name = "gps-cdcl"
